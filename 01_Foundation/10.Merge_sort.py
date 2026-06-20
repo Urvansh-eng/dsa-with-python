@@ -45,6 +45,18 @@
 
 
 
+# Approach:
+# 1. If the array has 0 or 1 element, it is already sorted, so return it.
+# 2. Find the middle index and divide the array into left and right halves.
+# 3. Recursively apply merge sort on both halves until each subarray contains a single element.
+# 4. Merge the two sorted halves by comparing their elements one by one.
+# 5. Add the smaller element to a new list and move its pointer forward.
+# 6. After one half is exhausted, append the remaining elements from the other half.
+# 7. Return the merged sorted list as the final result.
+
+
+
+
 
 arr = [1,3,2,5,4,7,6,0,9,8]
 
